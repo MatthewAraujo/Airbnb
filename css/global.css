@@ -5,29 +5,45 @@
 }
 
 :root {
-  --blue-100:#005C9A;
-  --blue-200:#104C88;
-  --blue-300:#104C88;
+
+  /* primary */
+  --red-100:#ff504d;
+  --red-200:#BA3537;
+  --red-300:#a80003;
   
-  --gray-100:#FBFCFD;
-  --gray-200:#F0F0F1;
-  --gray-300:#989898;
-  
+  --purple-100:#d489ff;
+  --purple-200:#7700ff;
+  --purple-300:#48008b;
+
+  --green-100:#89ff79;
+  --green-200:#58d439;
+  --green-300:#0d9b00;
+
+  /* secondary */
+  --darkgrey-100:#505050;
+  --darkgrey-200:#414141;
+  --darkgrey-300:#363636;
+
+  --grey-100:#9e9e9e;
+  --grey-200:#707070;
+  --grey-300:#645b5b;
+
   --white:#FFFFFF;
+
   --black:#000000;
 
 }
 
 html {
   scroll-behavior: smooth;
- 
+
 }
 @media (max-width: 1024px) {
   .html {font-size: 93.75%;}
 }
 
 @media (max-width: 768px) {
-  /html{font-size: 87.5%;}
+  html{font-size: 87.5%;}
 }
 
 body {
