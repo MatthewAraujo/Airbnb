@@ -59,6 +59,6 @@ Este projeto é uma ótima maneira de começar a se familiarizar com as prática
 
 ## Figma do projeto
 
-[figma](https://www.figma.com/file/TL8Dw8dKCi1D3oAJHUMn8o/Airbnb-x-Figma-(Community)?type=design&mode=design&t=yXVBAHbNiW9v7Zq4-0)
+- [figma](https://www.figma.com/file/TL8Dw8dKCi1D3oAJHUMn8o/Airbnb-x-Figma-(Community)?type=design&mode=design&t=yXVBAHbNiW9v7Zq4-0)
 
 Divirta-se explorando e contribuindo para o projeto Airbnb Clone! Seu aprendizado e crescimento como desenvolvedor web são as principais metas deste projeto.
