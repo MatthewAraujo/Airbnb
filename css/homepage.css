@@ -1,1 +1,172 @@
 @charset "UTF-8";
+
+body {
+    background-color: #fff;
+}
+
+img {
+    display: flex;
+    width: 100%;
+}
+
+header.container {
+    width: 100%;
+    height: 750px;
+    background-image: url('../src/airplane.png');
+}
+
+nav {
+    max-width: 1366px;
+    margin: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.nav-logo {
+    max-width: 40px;
+    filter: invert(1);
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-logo:hover {
+    transform: scale(1.1);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-right: 2rem;
+}
+
+.nav-links a{
+    position: relative;
+    padding-bottom: 0.75rem;
+    color: #ffff;
+}
+
+.nav-links a::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--red-100);
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover::after {
+    width: 80%;
+}
+
+.reservation-card {
+    width: 391px;
+    height: 508px;
+    background-color: #fff;
+    padding: 1.5rem;
+    margin: 3rem 5rem;
+    border-radius: 5px;
+}
+
+.reservation-card h1 {
+    width: 343px;
+    height: 114px;
+
+
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37.5px;
+}
+
+input {
+    border: 1px solid #acacac73;
+    color: #acacac;
+}
+
+.partout-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    width: 343px;
+    padding-top: 0.8rem;
+
+    font-size: 0.9rem;
+    font-weight: 700;
+    
+}
+
+.partout-container input {
+    padding: 0.4rem;
+}
+
+.arrivee-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 7rem;
+
+    width: 171.5px;
+    padding-top: 0.8rem;
+
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.arriveeAndDepart-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+
+    padding: 0.7rem;
+}
+
+.arriveeAndDepart-container input {
+    padding: 0.5rem;
+}
+
+.voyageurs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 343px;
+
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.voyageurs-container input {
+    padding: 0.5rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.button-rechercher {
+    cursor: pointer;
+    width: 146px;
+    padding: 1rem;
+    background-color: var(--red-100);
+    color: var(--white);
+
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: all 0.3 ease;
+}
+
+.button-rechercher:hover {
+    background-color: var(--red-200);
+    border-color: rgba(156, 156, 156, 0.753);
+}
+
+
+

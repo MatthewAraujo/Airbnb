@@ -5,13 +5,52 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="shortcut icon" href="https://cdn.icon-icons.com/icons2/2389/PNG/512/airbnb_logo_icon_145511.png" type="image/x-icon">
   <link rel="stylesheet" href="css/global.css">
   <link rel="stylesheet" href="css/homepage.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
 </head>
+
 <body>
-  <p>ola airbs</p>
-  
+  <header class="container">
+    <nav>
+      <a href="./index.html">
+        <img class="nav-logo" src="https://cdn.icon-icons.com/icons2/2389/PNG/512/airbnb_logo_icon_145511.png">
+      </a>
+      <ul class="nav-links">
+        <a class="link" href="./index.html">Home</a>
+        <a class="link" href="#">Trips</a>
+        <a class="link" href="#">Quem Somos</a>
+      </ul>
+    </nav>
+    <section class="reservation-card">
+      <h1>Réservez des hébergements et des activités uniques</h1>
+      <form action="#" method="get" autocomplete="none" class="travel-form">
+        <p class="partout-container">
+          <label for="ipartout">OU</label>
+          <input type="text" name="partout" id="ipartout" placeholder="Partout">
+        </p>
+        <p class="arrivee-container">
+          <label for="iarrivee">ARRIVÉE</label>
+          
+          <label for="idepart">DÉPART</label>
+          
+        </p>
+        <p class="arriveeAndDepart-container">
+          <input type="date" name="arrivee" id="iarrivee">
+          <input type="date" name="depart" id="idepart">
+        </p>
+
+        <p class="voyageurs-container">
+          <label for="ivoyageurs">VOYAGEURS</label>
+          <input type="text" name="voyageurs" id="ivoyageurs" placeholder="Voyageurs">
+        </p>
+        <div class="button-container">
+          <input type="submit" value="Rechercher" class="button-rechercher">
+        </div>
+      </form>
+    </section>
+  </header>
 </body>
 </html>
