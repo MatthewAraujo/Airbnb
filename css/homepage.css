@@ -335,3 +335,160 @@ label {
     background-color: var(--grey-100);
 }
 
+/* Decouvrez Airbnb */
+
+.decouvrezAirbnb-container {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+.decouvrezAirbnb-container h2 {
+    font-size: 1.3rem;
+    padding-bottom: 1.5rem;
+
+    color: var(--grey-300)
+}
+
+.decouvrezAirbnb-container .subtitle {
+    color: var(--grey-200);
+    padding-bottom: 1.5rem;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.infos-container {
+    max-width: 188px;
+}
+
+.infos-container .country {
+    color: var(--grey-200);
+    font-size: 0.7rem;
+    padding: 0.5rem 0 1rem 0;
+}
+
+.infos-container .package {
+    display: flex;
+    color: var(--black);
+    font-weight: 700;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.infos-container .pricing {
+    font-size: 0.9rem;
+    color: var(--grey-200);
+    padding-bottom: 0.5rem ;
+}
+
+.infos-container .rate {
+    display: flex;
+    gap: 0.3rem;
+    color: #008489;
+    font-size: 0.8rem;
+    padding-bottom: 0.5rem;
+}
+
+.cards {
+    padding-bottom: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.cards:hover {
+    transform:scale(1.05)
+}
+
+/* Logements Airbnb */
+
+.logements-container {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+.logements-container h2 {
+    font-size: 1.3rem;
+    padding-bottom: 2rem;
+
+    color: var(--grey-300);
+}
+
+.logementsCards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards2 {
+    padding-bottom: 1rem;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.cardsInfos-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardsInfos-container p {
+    color: var(--grey-200);
+}
+
+.cardsInfos-container .pricing {
+    font-size: 0.9rem;
+    color: var(--grey-300);
+    padding-bottom: 1rem;
+}
+
+.buttonPlaceRate-container {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 1rem 0;
+}
+
+.buttonPlaceRate-container .buttonPlace {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.buttonPlaceRate-container .buttonPlace p {
+    color: var(--grey-200);
+    font-size: 0.8rem;
+}
+
+.buttonPlaceRate-container .rate {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+
+    font-weight: 700;
+}
+
+.buttonPlaceRate-container .rate p {
+    font-size: 0.8rem;
+    color: var(--black);
+}
+
+
+.cardsInfos-container button {
+    padding: 0.5rem;
+    font-size: 0.7rem;
+    border: 1px solid var(--black);
+    border-radius: 4px;
+
+    transition: all 0.2s ease;
+}
+
+.cards2:hover {
+    transform: scale(1.05);
+}
+
+.cardsInfos-container button:hover {
+    background-color: #b8b8b8;
+}
